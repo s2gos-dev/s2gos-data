@@ -1,0 +1,1 @@
+# s2gos-data
