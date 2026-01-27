@@ -4,27 +4,39 @@
     "treecover": {
       "type": "rpv",
       "rho_0": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "rho_0"
       },
       "k": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "k"
       },
       "Theta": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "Theta"
       },
       "rho_c": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "rho_c"
       }
     },
     "shrubland": {
-      "type": "diffuse",
-      "reflectance": {
-        "path": "spectra/spectrum_shrubland_diffuse.nc",
-        "variable": "reflectance"
+      "type": "rpv",
+      "rho_0": {
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
+        "variable": "rho_0"
+      },
+      "k": {
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
+        "variable": "k"
+      },
+      "Theta": {
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
+        "variable": "Theta"
+      },
+      "rho_c": {
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
+        "variable": "rho_c"
       }
     },
     "cropland": {
@@ -52,19 +64,19 @@
     "grassland": {
       "type": "rpv",
       "rho_0": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "rho_0"
       },
       "k": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "k"
       },
       "Theta": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "Theta"
       },
       "rho_c": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "rho_c"
       }
     },
@@ -78,19 +90,19 @@
     "wetland": {
       "type": "rpv",
       "rho_0": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "rho_0"
       },
       "k": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "k"
       },
       "Theta": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "Theta"
       },
       "rho_c": {
-        "path": "spectra/spectrum_grassland_rpv_high.nc",
+        "path": "spectra/spectrum_grassland_rpv_short.nc",
         "variable": "rho_c"
       }
     },
